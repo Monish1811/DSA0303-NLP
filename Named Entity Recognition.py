@@ -4,7 +4,7 @@ from nltk.tag import pos_tag
 from nltk.chunk import ne_chunk
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
-text = "I am Pranathi and I am interested in Photography."
+text = "I am Monish and I am interested in Sports."
 words = word_tokenize(text)
 tagged = pos_tag(words)
 named_entities = ne_chunk(tagged)
